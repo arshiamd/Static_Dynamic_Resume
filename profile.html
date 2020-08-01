@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="profile.css">
+    <style>
+        
+
+        .navbar{
+            margin-bottom: 3em ;
+            
+        }
+        .nav-item .nav-link{
+            color: black;
+        }
+        .row{
+            margin: 20px auto;
+            padding: 0px auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info static-top" >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+                <img src="../images/logo1.png" alt="logo" style="width: 24px;">
+                <span class="d-none d-sm-inline align-items-center">Taijitu</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" >Contact</a>
+              </li>
+              <li class="nav-item">
+                <a title="more" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle nav-link" id="dropdownMenuButton">More</a>
+                <div class="dropdown">
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Login</a>
+                      <a class="dropdown-item" href="#">Register</a>
+                      <a class="dropdown-item" href="#">Help</a>
+                    </div>
+                  </div>
+              </li>
+            </ul>
+            <div>
+            </div>
+          </div>
+          
+        </div>
+      </nav>
+      <div class="container-fluid box ">
+
+        <div class="row">
+            <div class="col-sm-6 col-md-6 c1">
+                <div class="card">
+                    <div class="view overlay zoom">
+                        <img src="arshi1.jpg" class="card-img-top" alt="card-image">
+                        <div class="mask flex-center rgba-red-light">
+                            <h2 class="white-text">STATIC</h2>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-header bg-primary text-white">Arshia Mohammad</h3> 
+                        <button onclick="location.href = 'StaticResume/index.html';" id="myButton" class="mt-2 submit-button btn-change" >Static Resume</button>
+                    </div>     
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="card ">
+                    <div class="view overlay zoom">
+                        <img src="../images/arshi1.jpg" class="card-img-top" alt="card-image">
+                        <div class="mask flex-center rgba-red-light">
+                            <h2 class="white-text">DYNAMIC</h2>
+                        </div>
+                    </div>
+                    <div class="card-body text-center">
+                        <h4 class="card-header bg-primary text-white">Arshia Mohammad</h3> 
+                        <button onclick="location.href = 'http://127.0.0.1:8887/index1.html';" id="myButton" class="mt-2 submit-button btn-change" >Dynamic Resume</button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

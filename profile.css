@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+body {
+    background: linear-gradient(to top right, #39B59D, #139BDA, #0066FF, #061CFF);
+    background-attachment: fixed;
+    font-family:'Lato', sans-serif;
+    font-size:1em;
+    color:#777;
+    font-weight:300;
+    line-height:1.7;
+    overflow-x:hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    image-rendering: auto;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+}
+.btn-change{
+    height: 50px;
+    width: 150px;
+    background: #31708f;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transform-origin: 100% 50%;
+    -webkit-transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    -webkit-box-shadow: 10px 0px 0 0 lightseagreen inset , 30px 30px 50px lightseagreen inset;
+}
+.btn-change:hover{
+    -webkit-box-shadow: 0px 0px 0 0 lightseagreen inset , 0px 0px 0 lightseagreen inset;
+}
+.card{
+    box-shadow: 0px 20px 20px rgba(9, 2, 10, 0.822), 0 6px 6px rgba(2, 25, 36, 0.973);
+}
+@media (max-width: 575px) {
+    .c1{
+        margin-bottom: 10%;
+    }
+}
