@@ -1,0 +1,72 @@
+.parent{
+    border: 2px solid #ddd;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    width: 85%;
+    display: block;
+    margin: 0 auto;
+}
+
+.child-1{
+    border: 2px solid #ddd;
+    margin: 1%;
+    padding: 1%;
+    width: 30%;
+    border-radius: 10%;
+    text-align: center;
+}
+
+.child-2{
+    border: 2px solid #ddd;
+    width: 64%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10%;
+}
+
+@media only screen and (min-width:320px) and (max-width:580px){
+    .parent{
+        border: 2px solid #ddd;
+        margin: 1%;
+        padding: 1%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    a{
+        word-wrap: break-word;
+    }
+
+    img{
+        width: 85%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .child-1{
+        border: 2px solid #ddd;
+        margin: 1%;
+        padding: 1%;
+        width: 94%;
+        border-radius: 10%;
+        text-align: center;
+        background-color: #ddd;
+        font-size: 20px;
+    }
+    
+    .child-2{
+        border: 2px solid #ddd;
+        width: 94%;
+        margin: 1%;
+        padding: 1%;
+        border-radius: 10%;
+        background-color: #ddd;
+        font-size: 20px;
+
+    }
+}

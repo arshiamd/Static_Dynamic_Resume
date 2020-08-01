@@ -1,0 +1,48 @@
+{
+    "details":{
+        "name":"Arshia",
+        "image":"avatar.webp",
+        "email":"arshiamd.777@gmail.com",
+        "number":"905918618",
+        "address":"Guntur"
+    },
+    "carrerObjective":{
+        "info":"To become a software developer"
+    },
+    "educationalQualification":[
+        
+        {   
+            "institute":"VVIT",
+            "degree":"B.Tech",
+            "Passoutyear":"2021",
+            "percentage":"87%"
+        },
+        {
+            "institute":"Sri Chaitanya college",
+            "degree":"Intermediate",
+            "Passoutyear":"2017",
+            "percentage":"98%"
+        },
+        {
+            "institite":"Oxford school",
+            "degree":"SSC",
+            "Passoutyear":"2015",
+            "percentage":"97%"
+        }
+    ],
+
+    "technicalskills":[
+        {
+            "title":"Programming Languages",
+            "info":["C,C++,Java,Python"]
+        },
+        {
+            "title":"Databases",
+            "info":["Oracle,MySQL"]
+        },
+        {
+            "title":"Operating Systems",
+            "info":["Windows,Linux,Ubuntu,Dos"]
+        }
+    ]
+}
